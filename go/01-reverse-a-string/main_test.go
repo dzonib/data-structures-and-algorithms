@@ -25,6 +25,6 @@ func TestReverse(t *testing.T) {
 	want := "olleH"
 
 	if got != want {
-		t.Errorf("Got %q, want %q", got, want)
+		t.Errorf("got %q, want %q", got, want)
 	}
 }
