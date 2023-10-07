@@ -21,13 +21,13 @@ func main() {
 func palindrome(s string) bool {
 	rns := []rune(s) // convert to rune
 
-	// oop that uses two variables, i and j, to traverse the characters of the string from both ends toward the center.
-	// i starts at the beginning (0), and j starts at the end (the last index of the rns slice).
+	// Oop that uses two variables, i and j, to traverse the characters of the string from both ends toward the center.
+	// i start at the beginning (0), and j starts at the end (the last index of the rns slice).
 	// The loop continues as long as i is less than j.
 
 	for i, j := 0, len(rns)-1; i < j; i, j = i+1, j-1 {
 		// 0, 3
-		// swap T t, t T
+		// swaps T t, t T
 
 		// 1, 2
 		// swap e s, s e
